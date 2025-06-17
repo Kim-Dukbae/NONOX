@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat - LLM</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <div class="chat-section">
+      <div class="chat-box" id="chatBox"></div>
+      <div class="input-area">
+        <textarea id="input" placeholder="메시지를 입력하세요..."></textarea>
+        <button id="sendBtn" onclick="send()">전송</button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="stat-box">
+        <strong>📊 대화 통계</strong><br>
+        <div id="stats" style="margin-top:10px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
