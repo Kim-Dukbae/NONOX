@@ -15,7 +15,7 @@
 
 ## 🖥️ 데모 화면
 
-<img src="screenshot.png" width="600">
+![demo 사진](https://github.com/user-attachments/assets/affeb86d-8e14-4144-9e3e-f50aed5b7ee6)
 
 ---
 
